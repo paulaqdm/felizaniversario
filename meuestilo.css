@@ -12,19 +12,25 @@
 		transform: translateY(-10px);
 	}
 }	
-	
+
+
 	
 	.btns {
 	text-align:center;
-	margin-top: 400px;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding:0;
+	position:  fixed;
 	}
 	
 	.texto {
-    width: 485px;
-	margin-top: 130px;
-	margin-left: 700px;
-	padding: 90px;
-	
+	height: 100%;
+    width: 25.5%;
+	margin-top: 7%;
+	margin-left: 36.25%;
+	padding:5%;
+	position: relative;
 	}
 	
 	.efeito {
@@ -48,6 +54,9 @@
 	}
 	
 	.botao{
+		
+		
+		margin-top: 400px;
 		background: #004b6b;
 		
 	}
@@ -70,8 +79,8 @@
 	#font6{
 		
 	font-family:Arial;	
-	font-size:21px;
-	color:#fffffff;
+	font-size:15;
+	color:black;
 	position:relative;
 
 }
