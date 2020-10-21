@@ -1,0 +1,79 @@
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}	
+	
+	
+	.btns {
+	text-align:center;
+	margin-top: 400px;
+	}
+	
+	.texto {
+    width: 485px;
+	margin-top: 130px;
+	margin-left: 700px;
+	padding: 90px;
+	
+	}
+	
+	.efeito {
+	justify-content:center;
+	align-items:flex-end;
+	border: none;
+	color: #ffffff;
+	opacity: 90%;
+	-webkit-box-shadow: 0px 21px 30px 0px rgba(255, 255, 255, 0.5);
+	-moz-box-shadow:    0px 21px 30px 0px rgba(255, 255, 255, 0.5);
+	box-shadow:         0px 21px 30px 0px rgba(255, 255, 255, 0.5);
+	padding: 30px;
+	margin: 10px;
+	font-size: 40px;
+	line-height: 40px;
+	border-radius: 10px;
+	position: relative;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: all 400ms ease;
+	}
+	
+	.botao{
+		background: #004b6b;
+		
+	}
+	
+	.botao:hover{
+		animation: bounce 1s;
+	}
+	
+	#font5{
+	display:flex;
+	justify-content:center;
+	align-items:flex-end;
+	margin-top: 380px;
+	font-family:Arial;
+	font-size:20;
+	color:#004b6b;
+	position:relative;
+}
+
+	#font6{
+		
+	font-family:Arial;	
+	font-size:21px;
+	color:#fffffff;
+	position:relative;
+
+}
+
+
